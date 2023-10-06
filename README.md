@@ -178,3 +178,27 @@ Your delivery will be evaluated on:
 Send your delivery at ***eazytrainingfr@gmail.com*** and we will provide you the link of the solution.
 
 ![good luck](https://user-images.githubusercontent.com/18481009/84582398-cad38100-adeb-11ea-95e3-2a9d4c0d5437.gif)
+
+
+Projet student list 
+
+Pour mettre en place l'infrastructure requise, nous débutons en élaborant un Dockerfile pour la création de l'image de l'API (backend) et ensuite, nous déployons cette infrastructure (comprenant l'API et le frontend) en utilisant Docker Compose. Initialement, notre objectif est de déployer la première partie afin d'assurer le fonctionnement correct du petit site dont nous disposons, comprenant à la fois son frontend et son backend.
+Dans une seconde étape, nous ajustons le fichier Docker Compose pour permettre le déploiement simultané du site web et de notre registre Docker local, lequel inclut un frontend et un backend.
+Les captures d'écran montrant le bon fonctionnement de l’infrastructure mise en place.
+
+
+Des captures d'écran illustrant le bon fonctionnement de cette infrastructure mise en place sont ci-dessous 
+La première capture démontre le bon fonctionnement de l'outil Curl, confirmant ainsi que le backend est opérationnel.
+
+
+
+
+
+
+La deuxième capture prouve que le frontend est connecté au backend, fournissant la même information que celle obtenue précédemment avec Curl, mais cette fois-ci avec le frontend.
+
+
+Les deux dernières captures d'écran confirment que l'image que nous venons de créer a bien été chargée dans notre registre local Docker.
+
+
+
